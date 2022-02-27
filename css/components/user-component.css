@@ -17,6 +17,7 @@
   height: 70px;
   border-radius: 27px;
   margin-right: 20px;
+  background-image: url("https://wl-brightside.cf.tsp.li/resize/728x/jpg/e54/e78/30a24451a8ba30d37a3dfa888c.jpg");
 }
 
 .user-component__title {
@@ -34,19 +35,27 @@
 .user-component__avatar--xl {
   width: 80px;
   height: 80px;
+  background-size: 80px;
 }
 
 .user-component__avatar--sm {
   width: 60px;
   height: 60px;
+  background-size: 60px;
 }
 
 .user-component__title--not-bold {
   font-weight: 400;
 }
 
-
-
 .user-component__column:last-child {
   color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.user-component__time {
+  margin-bottom: 5px;
+  display: block;
 }

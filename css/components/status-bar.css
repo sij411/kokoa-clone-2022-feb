@@ -25,3 +25,7 @@
 .staus-bar__column .fa-battery-full {
   margin: 0px 5px;
 }
+
+.staus-bar__column .fa-bolt {
+  margin-right: 5px;
+}
