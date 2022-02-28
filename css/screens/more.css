@@ -10,6 +10,11 @@
 
 .more-suggestions__title {
   margin-bottom: 25px;
+  width: 100%;
+}
+
+.more-suggestions__apps {
+  display: flex;
 }
 
 .more-suggestions__icons {
@@ -37,4 +42,11 @@
 .more-suggestions__icon-img i {
   font-size: 32px;
   color: white;
+}
+
+.more-suggestions__icon-img--image {
+  background-color: lavender;
+}
+.more-suggestions__icon-img--image i {
+  color: black;
 }

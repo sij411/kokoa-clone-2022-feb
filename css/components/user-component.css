@@ -1,8 +1,5 @@
 .user-component {
   display: flex;
-}
-
-.user-component {
   justify-content: space-between;
 }
 
@@ -58,4 +55,20 @@
 .user-component__time {
   margin-bottom: 5px;
   display: block;
+}
+
+.user-component__phone {
+  display: flex;
+}
+
+.user-component__phone h6 {
+  display: block;
+}
+
+.user-component__phone i {
+  display: block;
+  margin-left: 10px;
+  position: relative;
+  top: 8px;
+  color: tomato;
 }

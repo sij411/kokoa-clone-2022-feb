@@ -4,6 +4,13 @@
   padding-bottom: 25px;
 }
 
+.icon-row--second {
+  width: 50%;
+}
+
+
+
+
 .icon-row__icon {
   display: flex;
   flex-direction: column;

@@ -25,11 +25,13 @@
 
     <header class="screen-header">
       <h1 class="screen-header__title">More</h1>
-      <div class="screen-header__icons">
+      <div class="screen-header__icons screen-header__icons--findheader">
         <span><i class="fas fa-search fa-lg"></i></span>
         <span><i class="fas fa-music fa-lg"></i></span>
         <span
-          ><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a
+          ><a href="settings.html">
+            <i class="fas fa-cog fa-lg"></i>
+            <span class="cog-notify"></span> </a
         ></span>
       </div>
     </header>
@@ -42,8 +44,10 @@
           />
           <div class="user-component__text">
             <h4 class="user-component__title">Kwon Jiwon</h4>
-            <h6 class="user-component__subtitle">010-1234-5678</h6>
-            <!--icon !-->
+            <div class="user-component__phone">
+              <h6 class="user-component__subtitle">010-1234-5678</h6>
+              <i class="fas fa-exclamation-circle"></i>
+            </div>
           </div>
         </div>
         <div class="user-component__column">
@@ -68,24 +72,34 @@
           <i class="fas fa-user-circle icon-row-size"></i>
           <span>Account</span>
         </div>
-        <div class="icon-row__icon">
-          <i class="fas fa-fingerprint icon-row-size"></i>
-          <span>Themes</span>
-        </div>
-        <div class="icon-row__icon">
-          <i class="fas fa-fingerprint icon-row-size"></i>
-          <span>Themes</span>
+      </div>
+      <div class="icon-row icon-row--second">
+        <div class="icon-row__icon icon-row__icon--second">
+          <i class="far fa-comments icon-row-size"></i>
+          <span>Openchat</span>
         </div>
       </div>
 
       <div class="more-suggestions">
         <h4 class="more-suggestions__title">Suggestions</h4>
-        <div class="more-suggestions__icons">
-          <div class="more-suggestions__icon">
-            <div class="more-suggestions__icon-img">
-              <i class="fas fa-quote-right"></i>
+        <div class="more-suggestions__apps">
+          <div class="more-suggestions__icons">
+            <div class="more-suggestions__icon">
+              <div class="more-suggestions__icon-img">
+                <i class="fas fa-quote-right"></i>
+              </div>
+              <span class="more-suggestions__icon-text">Kokoa Story</span>
             </div>
-            <span class="more-suggestions__icon-text">Kokoa Story</span>
+          </div>
+          <div class="more-suggestions__icons">
+            <div class="more-suggestions__icon">
+              <div
+                class="more-suggestions__icon-img more-suggestions__icon-img--image"
+              >
+                <i class="fas fa-cat"></i>
+              </div>
+              <span class="more-suggestions__icon-text">Jumping Cats</span>
+            </div>
           </div>
         </div>
       </div>
@@ -117,6 +131,13 @@
         </li>
       </ul>
     </nav>
+
+    <div id="no-mobile">
+      <span>Your screen is too big :(</span>
+    </div>
+    <div id="no-mobile-height">
+      <span>Your screen is too short :(</span>
+    </div>
 
     <script
       script
